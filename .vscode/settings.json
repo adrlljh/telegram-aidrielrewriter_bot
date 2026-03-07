@@ -1,0 +1,6 @@
+{
+    "python.defaultInterpreterPath": "/Users/adrielliew/Projects/telegram-aidrielrewriter_bot/venv/bin/python",
+    "python.analysis.extraPaths": [
+        "/Users/adrielliew/Projects/telegram-aidrielrewriter_bot/venv/lib/python3.13/site-packages"
+    ]
+}
