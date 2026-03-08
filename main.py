@@ -24,7 +24,7 @@ from telegram.ext import (
 )
 
 # load .env
-load_dotenv()
+load_dotenv(Path(__file__).with_name(".env"))
 
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
