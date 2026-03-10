@@ -28,7 +28,7 @@ load_dotenv(Path(__file__).with_name(".env"))
 
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
-GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
+GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-2.0-flash-lite")
 
 DB_PATH = Path(os.getenv("SETTINGS_DB_PATH", Path(__file__).with_name("bot_settings.db")))
 
