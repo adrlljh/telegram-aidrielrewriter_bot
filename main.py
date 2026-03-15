@@ -102,12 +102,6 @@ def set_cost_enabled(chat_id: int, enabled: bool) -> None:
             (chat_id, int(enabled)),
         )
 
-# def generate_rewrite(user_text: str) -> Any:
-#     return client.models.generate_content(
-#         model=GEMINI_MODEL,
-#         contents=PROMPT_TEMPLATE.format(user_text=user_text),
-#     )
-
 def generate_rewrite(user_text: str) -> Any:
     if not GEMINI_API_KEY:
         # Mock response for testing
