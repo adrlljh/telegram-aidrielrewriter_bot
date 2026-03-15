@@ -45,7 +45,7 @@ RATE_LIMIT_WINDOW = 30  # seconds
 chat_request_log: dict[int, deque[float]] = {}
 
 PROMPT_TEMPLATE = """Rewrite the following text in a clear, professional tone.
-Do not use HTML, Markdown, or any formatting symbols.
+Do not use HTML, Markdown, or any formatting symbols (except emojis if specifically requested by the user).
 Do not add explanations.
 Preserve line breaks.
 Original text:
